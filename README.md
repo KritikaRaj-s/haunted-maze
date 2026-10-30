@@ -2,7 +2,13 @@
 
 Static HTML game. Deploy the repository root to Vercel using the Other preset, with no build command.
 
-## Google Forms setup
+## Registration data
+
+Pressing **Register with Google Forms** on the in-game registration screen posts both members' names and enrollment numbers to the event's existing MAZE.exe Team Registration Google Form. Google opens its response page in another tab. Check that it says the response has been recorded before starting the game. If pop-ups are blocked, allow them and retry. If Google reports a problem, the ready screen provides a prefilled manual registration link. Do not resubmit after a successful receipt.
+
+The game cannot read Google's cross-origin receipt. It reports that registration was sent, not that Google has confirmed storage. Local game records remain a backup. The registration form collects four fields; the optional results form below is separate.
+
+## Results Google Forms setup
 
 Create a Google Form with 12 short-answer fields for Member 1 name, Member 1 enrollment, Member 2 name, Member 2 enrollment, Team ID, Route, Result, Actual time, Penalty, Final time, Wrong answers, and Bonus.
 

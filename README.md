@@ -4,9 +4,9 @@ Static HTML game. Deploy the repository root to Vercel using the Other preset, w
 
 ## Registration data
 
-Start Game displays the game's four registration fields. Press Register to save the team in this browser and show the ready screen immediately. The Google Form submission starts separately in a hidden frame, without opening a new tab or waiting for Google to load.
+Start Game displays the game's four registration fields. Press Register to save the team in this browser and show the ready screen immediately. Registration makes no Google Forms request and opens no external page.
 
-The game cannot read Google's cross-origin response or automatically verify submission. Check the Google Form Responses tab during the event. If a registration is missing, use the ready screen's prefilled registration link and press Submit in Google Forms. Names and enrollment numbers also remain in this browser as part of the local team record.
+Names and enrollment numbers remain in this browser as part of the local team record. Event organizers can collect Google Forms registrations separately, manually.
 
 The optional results form below is separate from the existing four-field registration form.
 
